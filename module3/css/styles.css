@@ -1,0 +1,78 @@
+*{box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+
+/* Header Text */
+#headerText
+{
+  color: black;
+  font-weight: bold;
+}
+
+/* Header Style  */
+ #header-nav {
+  background-color: lightblue;
+  border: 0;
+}
+
+/* Main Content */
+/* #mainContent
+{
+  text-align: center;
+} */
+
+#mainContent h3
+{
+  font-size: large;
+  font-weight: bold;
+}
+
+#menuItemContainer
+{
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: auto;
+  height: 1000px;
+  width: 80%;
+}
+
+#menuItemContainer h5
+{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#menuItemContainer div
+{
+  padding: 5px;
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+#nav-list a
+{
+  color: black;
+  padding: 5px;
+  text-align: center;
+  background-color: tan;
+}
+
+#collapsable-nav
+{
+  background-color: tan;
+}
+
+@media (min-width: 768px)
+{
+  #nav-list a
+  {
+    display:none;
+  }
+  #collapsable-nav
+  {
+    background-color: transparent;
+  }
+}
